@@ -1,0 +1,109 @@
+/*common classes*/
+.fullWidth{
+	width: 100%;
+}
+.secondaryWidth{
+	width: 950px;
+}
+.pullLeft{
+	float: left;
+}
+.pullRight{
+	float: right;
+}
+.clearFix{
+	clear: both;
+}
+.verticalSpacer{
+	height: 10px;
+}
+.bringToCenter{
+	margin: 0 auto;
+}
+.blue{
+	background-color: #21C2F8;
+}
+.white{
+	background-color: #FFFFFF;
+}
+.gray{
+	background-color: #F2F2F2;
+}
+.black{
+	background-color: #222533;
+}
+.header{
+	height: 150px;
+}
+.menuAll{
+
+	margin-top: -30px;
+	height: 50px;
+	border-top: 1px solid #F2F2F2; 
+	border-bottom:1px solid #F2F2F2; 
+}	
+.menu ul{
+	margin: 15px 0 0 170px;
+}
+.menu ul li  
+{
+	display: inline;
+	text-decoration:none;
+	color:#222533;
+	border-left: 1px solid #F2F2F2; 
+	border-right: 1px solid #F2F2F2;
+	margin:5px -5px 0 0;  
+	word-spacing: 3px;
+	padding: 15px;
+	transition: all .5s ease;
+}
+.menu ul li:hover{
+	background-color: #222533;
+	color:#FFFFFF;
+}
+.search
+{
+	margin-top: -25px;
+	margin-right: 210px;
+}
+.searchInput{
+	border: 1px solid gray;
+	border-right: none; 
+	padding: 4px;
+}
+.searchIcon{
+	color:gray;
+	border: 1px solid gray;
+	border-left: none; 
+	padding: 7px;
+	margin-left:  -5px;
+}
+.logo 
+{
+	padding: 5px 15px;
+	color: white;
+	letter-spacing: 1px;
+} 
+.logo h4{
+	margin-top: -10px;
+}
+.needHelp{
+	margin-top: 20px;
+}
+.needHelp h5{
+	margin-left: 120px;
+}
+.phone{
+	color: #F2F2F2;
+	margin-left: 120px;
+	transition: all .5s ease;
+}
+.phone:hover{
+	color:#21C2F8;
+	font-size: 3em; 
+}
+
+.number{
+	color: #21C2F8;
+	font-size: 20px;
+}
